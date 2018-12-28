@@ -1,0 +1,298 @@
+body{
+box-sizing: border-box;
+margin: 0;
+width: 100vw !important;
+height: 100vh !important;   
+font-family: 'PT Sans Narrow', sans-serif; }
+    
+header {
+width: 100vw !important;
+height: 60px !important;
+background-color: whitesmoke;
+position: fixed;
+opacity: 0.5;
+padding-top: 30px;
+padding-left: 10px;
+z-index: 9999;
+}
+    
+#logo{
+height: 40px !important;
+}
+
+/*Menu*/       
+.menu{
+width: 350px;
+position: relative;
+float: right;
+background-color: whitesmoke;
+margin-right: -40px;
+}
+ 
+#menu-button{
+width: 30px !important;
+height: 30px !important;
+float: right;
+margin-right: 70px;
+border-style: none;
+cursor:pointer;
+}
+        
+.menu-link {
+text-decoration: none;
+color: rgb(83,0,0);
+font-size: 25px;
+font-weight: bold;
+display: inline-block;
+padding-right: 10px;
+}
+
+.menu-link:hover {
+color: rgb(255, 128, 0);
+font-weight: 600;
+}
+        
+
+/*Banner*/
+.banner{
+width:100vw;
+height:100vh; 
+display: flex;
+display: -webkit-box;
+display: -moz-box;
+display: -ms-flexbox;
+display: -webkit-flex;
+flex-direction: column;
+-ms-flex-direction: column;
+-webkit-flex-direction: column;
+background-image: url("../images/highways.jpeg");
+background-size: cover;
+opacity: 0.8;
+padding-top: 120px;
+align-items: center;
+ }
+        
+#p-banner-content{
+width: 80%;
+font-family: 'Poppins', sans-serif;
+font-size: 40px;
+text-align: center;
+font-weight: 600;
+color: rgb(255, 128, 0);
+padding-top: 50px;
+}
+    
+/*div Content*/  
+.content{  
+width: 100vw !important;    
+height: auto;
+display:flex;
+display: -webkit-box;
+display: -moz-box;
+display: -ms-flexbox;
+display: -webkit-flex;
+background-color: whitesmoke;
+align-items: center;
+justify-content: space-around;
+}
+
+.card-content{
+width:600px !important;
+height:400px !important;
+display:flex;
+display: -webkit-box;
+display: -moz-box;
+display: -ms-flexbox;
+display: -webkit-flex;
+flex-direction: column ;
+-ms-flex-direction: column;
+-webkit-flex-direction: column; 
+align-items: center;
+justify-content: space-around;
+margin: 10px;
+background-color: whitesmoke;
+}
+
+h1{
+font-family: 'Poppins', sans-serif;
+font-size: 30px;
+text-align: center;
+color: rgb(83,0,0);
+padding-top: 10px;
+font-weight: bold;
+}
+  
+#image-content{
+width:90% !important;
+height:90% !important;
+} 
+   
+.p-content{
+width:400px !important;
+height:400px !important;
+font-size: 20px;
+padding: 10px;
+color:black;
+}
+         
+/*div Contact*/
+ .contact{
+width: 100vw !important;    
+height: auto;
+display:flex;
+display: -webkit-box;
+display: -moz-box;
+display: -ms-flexbox;
+display: -webkit-flex;
+background-color: whitesmoke;
+align-items: center;
+justify-content: space-around;
+}
+
+.card-contact{
+width:600px !important;
+height:400px !important;
+display:flex;
+display: -webkit-box;
+display: -moz-box;
+display: -ms-flexbox;
+display: -webkit-flex;
+flex-direction: column ;
+-ms-flex-direction: column;
+-webkit-flex-direction: column; 
+align-items: center;
+justify-content: space-around;
+margin: 10px;
+background-color: whitesmoke;
+}  
+
+/*Form*/
+#form-contact{
+padding: 10px;
+}            
+
+#form-contact > input{
+width: 100%;
+}
+
+#form-contact > label{
+font-size: 20px;
+}
+
+input[type=text], input[type=email]{
+width: 100%;
+padding: 10px 20px;
+margin: 10px 0;
+box-sizing: border-box;
+border-radius:5px;
+}
+
+input[type=button]
+{
+width: 25%;
+padding: 10px 20px;
+color:whitesmoke;
+font-size: 16px;
+background-color: blue;
+border-radius: 5px;
+border: none;
+}
+
+/*Footer*/
+.footer-site{
+width:100vw;
+height:100px !important;
+display:flex;
+display: -webkit-box;
+display: -moz-box;
+display: -ms-flexbox;
+display: -webkit-flex;
+background-color:rgb(5,5,21);
+background-size: cover;
+align-items: center;
+justify-content: space-around;
+}
+    
+.card-footer{
+display:flex;
+display: -webkit-box;
+display: -moz-box;
+display: -ms-flexbox;
+display: -webkit-flex;
+width:100px;
+height:50px !important;
+flex-direction: column ;
+-ms-flex-direction: column;
+-webkit-flex-direction: column; 
+}
+
+
+.p-footer {
+font-size: 16px;
+text-align: center;
+color:whitesmoke;
+}
+
+@media (min-width:500px) and (max-width:999px){
+.content, .contact{
+flex-wrap: wrap;
+}
+
+.card-content,  .p-content, .card-contact, #form-contact{
+min-width: 45%;
+font-size: 18px;
+}
+
+input[type=button]{
+font-size: 14px;
+}
+
+.p-footer{
+font-size: 12px;
+}
+        
+}
+
+@media (max-width:499px){
+.menu{
+width: 200px;
+position: relative;
+float: right;
+margin-right: -10px;
+margin-top: 10px;
+}
+    
+ .menu-link{
+font-size: 16px;
+}
+     
+.content, .contact{
+display:flex;
+display: -webkit-box;
+display: -moz-box;
+display: -ms-flexbox;
+display: -webkit-flex;
+flex-direction: column ;
+-ms-flex-direction: column;
+-webkit-flex-direction: column; 
+align-items: center;
+justify-content: center;
+}
+    
+.card-content,.p-content,.card-contact, #form-contact{
+max-width: 90%;
+font-size: 18px;
+}
+    
+        
+input[type=button]{
+font-size: 14px;
+padding: 5px 10px;
+}
+
+.p-footer{
+font-size: 12px;
+}
+       
+}  
+    
