@@ -11,7 +11,7 @@ I am NOT responsible for any damage caused by the use of this code.
 I do NOT provide any technical support or warranty for this code.
 
 This project it's for STUDY only.
-The site's logo was designed for this project, so please do NOT reuse it.
+The site's logo was designed for this project, so please do NOT reuse.
 
 IMPORTANTE!
 
@@ -20,7 +20,7 @@ eu NÃO me responsabilizo por qualquer dano provocado pela utilização deste c�
 Eu NÃO forneço nenhum suporte técnico ou garantia deste código.
 
 Este projeto é destinado apenas para ESTUDOS.
-O logo do site foi criado para este projeto, então, por favor, NÃO o reutilize.
+O logo do site foi criado para este projeto, então, por favor, NÃO reutilize.
 
 
 
