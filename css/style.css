@@ -196,6 +196,9 @@ font-size: 16px;
 background-color: blue;
 border-radius: 5px;
 border: none;
+-webkit-appearance: none;
+-moz-appearance: none;
+appearance: none;
 }
 
 /*Footer*/
